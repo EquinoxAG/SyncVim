@@ -1,0 +1,5 @@
+git pull
+rm -rf ~/.vim
+rm ~/.vimrc
+cp ./.vimrc ~/.vimrc
+cp -r ./.vim ~/.vim
