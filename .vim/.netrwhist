@@ -1,8 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/home/alexander/Documents/OperatingSystem'
-let g:netrw_dirhist_2='/home/alexander/Documents/OperatingSystem/Mitternacht'
-let g:netrw_dirhist_3='/home/alexander/Documents/OperatingSystem/Mitternacht/boot'
-let g:netrw_dirhist_4='/home/alexander/Documents/OperatingSystem/Mitternacht/kernel'
-let g:netrw_dirhist_5='/home/alexander/Documents/OperatingSystem/Mitternacht/kernel/include'
-let g:netrw_dirhist_6='/home/alexander/Documents/OperatingSystem/Mitternacht/kernel/include/Filesystem'
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/home/alexander/.ssh'
+let g:netrw_dirhist_2='/home/alexander/.config'
+let g:netrw_dirhist_3='/home/alexander'
+let g:netrw_dirhist_4='/home/alexander/.config'
+let g:netrw_dirhist_5='/home/alexander'
+let g:netrw_dirhist_6='/home/alexander/.config'
+let g:netrw_dirhist_7='/home/alexander'
