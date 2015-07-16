@@ -1,0 +1,7 @@
+rm -rf .vim
+rm .vimrc
+cp ~/.vimrc ./.vimrc
+cp -r ~/.vim .
+git add --all .
+git commit -m "New uploaded version of vim!"
+git push
