@@ -16,11 +16,13 @@ set relativenumber
 set number
 highlight LineNr term=bold cterm=NONE ctermfg=Brown ctermbg=NONE gui=NONE guifg=Brown guibg=NONE
 highlight CursorLineNr term=bold cterm=NONE ctermfg=DarkRed ctermbg=NONE gui=NONE guifg=DarkRed guibg=NONE
+"highlight Normal term=bold cterm=NONE ctermfg=Blue ctermbg=NONE gui=NONE guifg=Blue guibg=NONE
 
 
-au BufRead,BufNewFile *.asm set filetype=nasm
-au BufRead,BufNewFile *.inc set filetype=nasm
+au BufNewFile,BufRead,WinEnter *.asm set filetype=nasm
+au BufNewFile,BufRead,WinEnter *.inc set filetype=nasm
 
+map <C-Space> <C-x><C-u> 
 map <F8> :CtrlP<return>
 map <F7> :CtrlPBuffer<return>
 map <F12> <C-w>v:E<return>
